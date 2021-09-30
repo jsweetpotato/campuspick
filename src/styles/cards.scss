@@ -1,0 +1,46 @@
+:root{
+  --btn-color: #ffcc1c;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.cards {
+  margin: 0;
+  display: grid;
+  width: 280px;
+  align-self: center;
+}
+
+.card {
+  .profile{
+    width: 100%;
+    padding: 14px 16px;
+    }
+  }
+  img {
+    width: 280px;
+  }
+  .content{
+    width: 100%;
+    padding: 16px;
+    h3, p{ 
+      margin: 4px;
+      font-size: 14px;
+    }
+    .card-btn {
+      margin-top: 8px;
+      border-radius: 5px;
+      display: block;
+      width: 100%;
+      height: 36px;
+      text-align: center;
+      text-decoration: none;
+      line-height: 36px;
+      color: #fff;
+      background-color: var(--btn-color);
+    }
+  }
+
+
